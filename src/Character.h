@@ -13,6 +13,12 @@ private:
   int intelligence;
   int wisdom;
   int charisma;
+
+public:
+  std::string getName() {return name};
+  void setName(std:: input) {name = input};
+  std::string getDescription() {return description};
+  void setDescription(std:: input) {description = input};
 };
 
 #endif
